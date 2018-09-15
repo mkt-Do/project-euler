@@ -1,6 +1,6 @@
 package jp.mkt.euler
 
-import jp.mkt.euler.project._
+import jp.mkt.euler.projects._
 
 object Euler {
   def main(args: Array[String]): Unit = {

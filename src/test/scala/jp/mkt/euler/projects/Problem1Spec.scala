@@ -1,11 +1,11 @@
-package jp.mkt.euler.project
+package jp.mkt.euler.projects
 
-import jp.mkt.euler.project.Problem1
+import jp.mkt.euler.projects.Problem1
 import org.scalatest._
 
 class Problem1Spec extends FunSuite {
 
-  test("Filtered List is shuold be 3 or 5 multiple list") {
+  test("Filtered List shuold be 3 or 5 multiple list (List(3, 5, 6, 9))") {
     assert(Problem1.filterMultipleThreeOrFive((1 until 10).toList) == List(3, 5, 6, 9))
   }
 }

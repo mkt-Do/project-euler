@@ -1,4 +1,4 @@
-package jp.mkt.euler.project
+package jp.mkt.euler.projects
 
 object Problem1 {
   def filterMultipleThreeOrFive(nums: List[Int]): List[Int] = nums.filter(
