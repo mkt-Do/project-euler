@@ -7,5 +7,9 @@ object Euler {
     // problem 1
     val problem1List = Problem1.filterMultipleThreeOrFive((1 until 1000).toList)
     println(problem1List.sum)
+
+    // problem 2
+    val problem2List = Problem2.createFibonacciList(4000000, 1, 2).toList
+    println(Problem2.sumEvenItem(problem2List))
   }
 }
