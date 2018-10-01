@@ -1,10 +1,10 @@
 package jp.mkt.euler.projects
 
-import jp.mkt.euler.utils.Util
+import jp.mkt.euler.utils.Util.even
 
 object P002 {
 
-  def sumEvenItem(list: List[Int]): Int = list.filter(Util.filterEven)
+  def sumEvenItem(list: List[Int]): Int = list.filter(even)
       .foldRight(0)((v, acc) => acc + v)
 
   def fibonacci(a: Int,b: Int): Stream[Int] = a #:: fibonacci(b, a + b)

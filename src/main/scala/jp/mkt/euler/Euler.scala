@@ -1,6 +1,7 @@
 package jp.mkt.euler
 
 import jp.mkt.euler.projects._
+import jp.mkt.euler.utils.Util._
 import scala.math._
 
 object Euler {
@@ -27,5 +28,9 @@ object Euler {
     // problem 5
     val problem5Result = P005.allLcm((1 to 20).toList)
     println(s"Problem 5 answer is ${problem5Result}")
+
+    // problem 6
+    val problem6Result = diff(P006.sumPow((1 to 100).toSeq), P006.powSum((1 to 100).toSeq))
+    println(s"Problem 6 answer is ${problem6Result}")
   }
 }
