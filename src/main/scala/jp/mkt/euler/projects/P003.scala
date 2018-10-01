@@ -2,7 +2,7 @@ package jp.mkt.euler.projects
 
 import scala.math._
 
-object Problem3 {
+object P003 {
 
   implicit def intToBigInt(n: Int) = BigInt(n)
   implicit def longToBigInt(n: Long) = BigInt(n)

@@ -2,7 +2,7 @@ package jp.mkt.euler.projects
 
 import jp.mkt.euler.utils.Util
 
-object Problem2 {
+object P002 {
 
   def sumEvenItem(list: List[Int]): Int = list.filter(Util.filterEven)
       .foldRight(0)((v, acc) => acc + v)
