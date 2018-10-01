@@ -23,5 +23,9 @@ object Euler {
       b <- 100 until 1000
     } yield (a * b)).filter(P004.palindrome)
     println(s"Problem 4 answer is ${problem4PalindromeList.max}")
+
+    // problem 5
+    val problem5Result = P005.allLcm((1 to 20).toList)
+    println(s"Problem 5 answer is ${problem5Result}")
   }
 }
