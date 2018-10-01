@@ -1,6 +1,5 @@
 package jp.mkt.euler.projects
 
-import jp.mkt.euler.projects.Problem2
 import org.scalatest._
 
 class Project2Spec extends FunSuite {

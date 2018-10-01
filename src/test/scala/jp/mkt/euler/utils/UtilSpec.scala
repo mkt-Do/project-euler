@@ -1,6 +1,5 @@
 package jp.mkt.euler.utils
 
-import jp.mkt.euler.utils.Util
 import org.scalatest._
 
 class UtilSpec extends FunSuite {
