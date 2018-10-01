@@ -16,5 +16,12 @@ object Euler {
     // problem 3
     val problem3PrimeFactors = Problem3.factorize(600851475143l)
     println(s"Problem 3 answer is ${problem3PrimeFactors.max}")
+
+    // problem 4
+    val problem4PalindromeList = (for {
+      a <- 100 until 1000
+      b <- 100 until 1000
+    } yield (a * b)).filter(Problem4.palindrome)
+    println(s"Problem 4 answer is ${problem4PalindromeList.max}")
   }
 }
